@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets / local state — never commit
+.env
+*.env
+*.db
+*.sqlite
+*.sqlite3
+tokens.json
+valves.json
