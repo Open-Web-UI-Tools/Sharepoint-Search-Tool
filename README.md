@@ -38,7 +38,6 @@ PyPDF2, python-docx, python-pptx, openpyxl
 | `max_results` | `10` | Max search hits to return |
 | `max_content_chars` | `50000` | Max characters of extracted content |
 | `max_download_mb` | `50` | Max attachment size to download for extraction |
-| `top_k_chunks` | `8` | Top BM25-ranked chunks fed to the LLM |
 
 ### Azure AD app registration
 
