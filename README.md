@@ -10,7 +10,6 @@ Each user connects their own Microsoft account, so results are always scoped to 
 - 👤 Delegated per-user OAuth (device-code flow) — results respect each user's permissions
 - 🔐 Access/refresh tokens stored **encrypted at rest** (Fernet) when an encryption key is set
 - 📄 On-the-fly text extraction from PDF, DOCX, PPTX, and XLSX attachments
-- 🧩 Parent/child chunking + BM25 ranking so only the most relevant passages reach the LLM
 - 🎯 Optional scoping to specific SharePoint site IDs
 
 ## Requirements
